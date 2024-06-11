@@ -105,19 +105,24 @@ body {
 }
 
 .about-me {
+    
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 5vw; /* Adjusted padding */
     border-top: 2px solid #eeeeee;
 }
 
 .about-me img {
-    width: 90%; /* Adjusted width */
-    max-width: 500px; /* Added maximum width */
+    
     height: auto;
     border-radius: 10px;
+    margin-left: 5px;
+    width: 771px;
+    aspect-ratio: auto 871 / 581;
+    height: 481px;
 }
+     
 
 .about-me-text h2 {
     font-size: 3vw; /* Adjusted font size */
